@@ -44,8 +44,6 @@ ggplot(Shopping_data, aes(x = SpendingScore)) +
 
 # Question-2(A):
 
-# Load required library
-library(ggplot2)
 
 # Boxplot of Spending Score by Annual Income categories
 ggplot(Shopping_data, aes(x = factor(AnnualIncome), y = SpendingScore)) +
